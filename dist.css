@@ -1463,3 +1463,9 @@ video {
 .yourscedule {
   margin-bottom: 5px;
 }
+.hellocont {
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-color: #424242;
+  
+}
