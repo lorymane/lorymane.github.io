@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Школьный портал</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-white dark:bg-dim-900">
+  <!-- Container -->
+  <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+    <!-- Left -->
+    <div class="xl:w-1/5 w-20 h-full flex flex-col xl:pr-4 fontsize20 font-r">
+      <!-- Logo -->
+      <a href="" class="link-active  my-2">
+        <img src="images/LogoSchool.png" class="logotypeschool"></img>
+      </a>
+      <!-- Nav -->
+      <nav class="mt-5">
+        <a href="" class="link-active mb-8">
+          <span class="material-icons"> home </span>
+          <span class="icon">Главная</span>
+        </a>
+        <a href="" class="link mb-8">
+          <span class="material-icons">
+            calendar_month
+            </span>
+          <span class="icon">Расписание</span>
+        </a>
+        <a href="" class="link mb-8">
+          <span class="material-icons"> school </span>
+          <span class="icon">Успеваемость</span>
+        </a>
+        <a href="" class="link mb-8">
+          <span class="material-icons">
+            emoji_events
+            </span>
+          <span class="icon">Достижения</span>
+        </a>
+        <a href="" class="link mb-8">
+          <span class="material-icons">
+            apartment
+            </span>
+          <span class="icon">Школа</span>
+        </a>
+        <a href="" class="link mb-8">
+          <span class="material-icons">
+            person
+            </span>
+          <span class="icon">Профиль</span>
+        </a>
+      </nav>
+      <!-- User -->
+      <div class="w-14 xl:w-full mx-auto mt-auto flex  justify-between mb-2 rounded-full p-2 cursor-pointer ">
+        <img class="w-10 h-10 rounded-full"
+          src="images/Лого типа.png" alt="" />
+        <div class="hidden xl:flex flex-col">
+          <h4 class="text-gray-800 dark:text-white font-bold text-sm">Андрей Басович</h4>
+          <p class="text-gray-400 text-sm">11Б класс     </p>
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-xs hidden xl:flex items-center xl:ml-4  text-gray-800 dark:text-white">
+        </i>
+
+      </div>
+    </div>
+    <!-- End Left -->
+    <!-- Middle -->
+    <div class="w-full xl:w-1/2 h-screen overflow-y-auto">
+      <!-- Sticky Header -->
+      <div
+        class=" justify-between items-center border px-4 py-3 top-0 bg-white dark:bg-dim-900  border-gray-200 dark:border-gray-200">
+        <h4 class="text-gray-800 fontsize24 text-blue-400">
+          Добро пожаловать, Андрей Басович!
+        </h4>
+        <h4 class="text-gray-800 dark:text-gray-100 yourgrades fontsize20">
+          Ваши оценки!
+        </h4>
+        <div class="grades">
+          <div class="rectangle-1">5</div>  
+          <div class="rectangle-2">4</div>  
+          <div class="rectangle-3">3</div>
+          <div class="rectangle-4">2</div>
+          <div class="rectangle-5">2</div>
+        </div>
+        <div class="yourrasp dark:text-gray-100 fontsize20">
+          <h3 class="yourscedule">Ваше расписание:</h3>
+          <div class="raspcontainer">
+            <div class="flex cons">
+              <div class="rasp"></div>
+              <div class="rasp"></div>
+            </div>
+            <div class="flex cons">
+              <div class="rasp"></div>
+              <div class="rasp"></div>
+            </div>
+            <div class="flex cons">
+              <div class="rasp"></div>
+              <div class="rasp"></div>
+            </div>
+            <div class="flex cons">
+              <div class="rasp"></div>
+              <div class="rasp"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tweet Box -->
+      <!-- Show tweets -->
+      <!-- Tweet -->
+    
+      <div class="border border-gray-200 dark:border-dim-200 cursor-pointer pb-4">
+        <div class="flex p-4 pb-0">
+          <img class="h-10 w-10 rounded-full "
+              src="images/Лого школы.png" alt="" />
+          <div>
+            <p class="ml-2 font-m text-gray-800 dark:text-white">
+              МБОУ СОШ "Горки-Х"
+            <p class="ml-2 text-sm leading-5 text-blue-400">
+              23 ноя в 22:01
+            </p>
+        </div>
+        </div>
+        <div class="pl-8 pr-4 postpaddingtop">
+          <p class=" w-auto font-r text-gray-800 dark:text-white fontsize16 ">
+            Активисты школьного музея "Музей села Назарьево", под руководством учителя истории Жулёва Александра Сергеевича и методиста Жулёвой Анастасии Константиновны достойно представили свой опыт работы на Межрегиональном форуме школьных музеев 
+            «Школьный музей – пространство идей,  
+            технологий и практик» в городе 
+            Йошкар-Ола. Ребята поделились фрагментом музейного урока из серии "Предметы милой старины", рассказав слушателям об истории утюга. <br />
+            
+            <a href="#" class="text-blue-400">#ШкольныеМузеиРоссии #ПутешествуемВместе #ОГО #открываемир #путешествуемпоРоссии
+            </a>
+            <br />
+          </p>
+          <img class="rounded-2xl border border-gray-600 my-3 mr-2 w-full"
+            src="images/f646badcb6a0fbba54b7467636c21732.jpg"
+            alt="" />
+          <div class="flex items-center w-full justify-between">
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400  hover:text-blue-400 dark:hover:text-blue-400">
+              <i class="fa-solid fa-comment mr-2 text-lg"></i>
+              123
+            </div>
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400 hover:text-green-400 dark:hover:text-green-400  ">
+              <i class="fa-solid fa-retweet mr-2 text-lg"></i>
+              3 723
+            </div>
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400 hover:text-red-600 dark:hover:text-red-600">
+              <i class="fa-solid fa-heart mr-2 text-lg"></i>
+              15 304
+            </div>
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400  hover:text-blue-400 dark:hover:text-blue-400">
+              <i class="fa-solid fa-share mr-2 text-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border border-gray-200 dark:border-dim-200 cursor-pointer pb-4">
+        <div class="flex p-4 pb-0">
+          <img class="h-10 w-10 rounded-full "
+              src="images/Лого школы.png" alt="" />
+          <div>
+            <p class="ml-2 font-m text-gray-800 dark:text-white">
+              МБОУ СОШ "Горки-Х"
+            <p class="ml-2 text-sm leading-5 text-blue-400">
+              23 ноя в 22:01
+            </p>
+        </div>
+        </div>
+        <div class="pl-8 pr-4 postpaddingtop">
+          <p class=" w-auto font-r text-gray-800 dark:text-white fontsize14 ">
+            Активисты школьного музея "Музей села Назарьево", под руководством учителя истории Жулёва Александра Сергеевича и методиста Жулёвой Анастасии Константиновны достойно представили свой опыт работы на Межрегиональном форуме школьных музеев 
+            «Школьный музей – пространство идей,  
+            технологий и практик» в городе 
+            Йошкар-Ола. Ребята поделились фрагментом музейного урока из серии "Предметы милой старины", рассказав слушателям об истории утюга. <br />
+            
+            <a href="#" class="text-blue-400">#ШкольныеМузеиРоссии #ПутешествуемВместе #ОГО #открываемир #путешествуемпоРоссии
+            </a>
+            <br />
+          </p>
+          <img class="rounded-2xl border border-gray-600 my-3 mr-2 w-full"
+            src="images/f646badcb6a0fbba54b7467636c21732.jpg"
+            alt="" />
+          <div class="flex items-center w-full justify-between">
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400  hover:text-blue-400 dark:hover:text-blue-400">
+              <i class="fa-solid fa-comment mr-2 text-lg"></i>
+              123
+            </div>
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400 hover:text-green-400 dark:hover:text-green-400  ">
+              <i class="fa-solid fa-retweet mr-2 text-lg"></i>
+              3 723
+            </div>
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400 hover:text-red-600 dark:hover:text-red-600">
+              <i class="fa-solid fa-heart mr-2 text-lg"></i>
+              15 304
+            </div>
+            <div
+              class=" flex items-center dark:text-white text-xs text-gray-400  hover:text-blue-400 dark:hover:text-blue-400">
+              <i class="fa-solid fa-share mr-2 text-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Spinner -->
+      <div class=" p-4 border border-gray-200 dark:border-gray-200">
+        <svg class="w-8 h-8 mx-auto animate-spin-fast ">
+          <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="stroke: rgb(29, 161, 242); opacity: 0.2">
+          </circle>
+          <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="
+                  stroke: rgb(29, 161, 242);
+                  stroke-dasharray: 80;
+                  stroke-dashoffset: 60;">
+          </circle>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Right -->
+    <div class="hidden w-[30%] xl:block marginuve ">
+      <!-- Search -->
+      <div class="bg-gray-50 dark:bg-dim-700 rounded-2xl m-2">
+        <h3 class="text-gray-900 dark:text-white font-m p-3 border-b border-gray-200 dark:border-dim-200 fontsize20">
+          Уведомления
+        </h3>
+        <div class="p-3 border-b border-gray-200 dark:border-dim-200">
+          <h4 class="font-m text-gray-800 dark:text-white">
+            Расписание изменилось
+          </h4>
+          <p class="text-xs text-gray-400">Замена учителя по физике. 4 урок, 19 ноября</p>
+        </div>
+        <div class="p-3 border-b border-gray-200 dark:border-dim-200">
+          <h4 class="font-m text-gray-800 dark:text-white">
+            Новая оценка
+          </h4>
+          <p class="text-xs text-gray-400">5 по математике за 17 ноября</p>
+        </div>
+        <div class="p-3 border-b border-gray-200 dark:border-dim-200">
+          <h4 class="font-m text-gray-800 dark:text-white">
+            Добавлено новое домашнее задание
+          </h4>
+          <p class="text-xs text-gray-400">п. 39-42, приготовить презентацию</p>
+        </div>
+        <div class="p-3 border-b border-gray-200 dark:border-dim-200">
+          <h4 class="font-m text-gray-800 dark:text-white">
+            Новое достижение
+          </h4>
+          <p class="text-xs text-gray-400">Вы получили достижение "Великое трио"</p>
+        </div>
+        <div class="text-blue-400 fontsize14 p-3 cursor-pointer">
+          Больше уведомлений
+        </div>
+      </div>
+      <!-- Who to follow  -->
+      
+    </div>
+
+  </div>
+</body>
+
+</html>
