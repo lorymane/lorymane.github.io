@@ -1,0 +1,24 @@
+@media (min-width: 420px){
+
+}
+
+@media (max-width: 410px){
+     
+}
+
+@media (max-width: 500px){
+.cons {
+  display: block;
+}
+.day {
+  padding-top: 10px;
+}
+.rasp {
+  padding-bottom: 20px;
+}
+}
+
+@media (max-width: 418px){
+
+}
+  
