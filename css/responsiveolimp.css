@@ -1,0 +1,71 @@
+@media (max-width: 358px){
+.day {
+  font-size: 14px;
+}
+.procentsp {
+  font-size: 14px;
+}
+}
+
+@media (max-width: 500px){
+.cons {
+  display: block;
+}
+.gap {
+  margin-top: 10px;
+}
+
+.procents {
+  margin-left: 20%;
+}
+
+.rasp {
+  padding-bottom: 8px;
+}
+}
+
+@media (max-width: 422px){
+  .raspi {
+    height: 85px;
+  }
+  hr {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 422px){
+  .raspi {
+    height: 75px;
+  }
+  hr {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 636px){
+  .procents {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 636px){
+  .procents {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 767px){
+.procents {
+  margin-left: 35%;
+}
+}
+
+@media (max-width: 463px) {
+.raspi {
+  height: 75px;
+}
+hr {
+  margin-top: 25px;
+}
+}
+  
