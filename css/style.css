@@ -666,7 +666,7 @@ video {
 
 .icon {
   display: none;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media (min-width: 1280px) {
@@ -1567,4 +1567,4 @@ input[type=radio]:checked~label {
 
 ::-webkit-scrollbar {
     display: none;
-  }
+}
