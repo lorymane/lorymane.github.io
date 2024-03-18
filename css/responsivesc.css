@@ -16,6 +16,12 @@
 .rasp {
   padding-bottom: 20px;
 }
+.gapt {
+  margin-top: 15px;
+}
+.raspcontainer {
+  margin-top: 0px;
+}
 }
 
 @media (max-width: 418px){
