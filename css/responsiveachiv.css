@@ -22,6 +22,9 @@
 .rasp {
   padding-bottom: 8px;
 }
+.void {
+  height: 500px;
+}
 }
 
 @media (max-width: 422px){
